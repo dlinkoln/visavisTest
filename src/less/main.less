@@ -10,7 +10,6 @@
   width: 1270px;
   margin: 0 auto;
   color:@black;
-  overflow: hidden;
   font-family: 'Roboto' ,sans-serif;
 }
 .container_posts{
@@ -75,9 +74,14 @@ h2{
     border:none;
     border-bottom: 1px solid @black;
     width: 100%;
+    position: relative;
+    background:transparent;
     &:focus{
       outline: none;
     }
+  }
+  .notTrsp{
+    background:#fff;
   }
   label{
     position: absolute;
@@ -102,7 +106,7 @@ h2{
   }
   .ctForm__range{
     height: 90px;
-    background:#c7c7c7;
+    margin-top: 90px;
   }
   .ctForm__send{
     display: flex;
@@ -205,6 +209,6 @@ h2{
     }
   }
 }
-.post + .post{
-
+.ctForm__range{
+  width: 100%;
 }

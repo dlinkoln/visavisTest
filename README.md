@@ -28,4 +28,5 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 2. Add Webpack img loaders && style config && basic mockUp |2hour 30min
 3. Trying to configure webpack,taked decision switch to Vue cli && Block with randomly displayed posts | 3hour
 4. Block with randomly displayed posts | 2hour
-5. In progress
+5. Add slider functionality && add validation form | 5hour
+6. Total |12hour 55min
